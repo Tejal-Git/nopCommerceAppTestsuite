@@ -18,7 +18,7 @@ class Test_002_DDT_Login:
     logger=LogGen.loggen()
 
 
-
+    @pytest.mark.regression
     def test_login(self,setup):
         self.logger.info("Test_002_DDT_Login")
         self.logger.info("Verifying DDT Login test")
